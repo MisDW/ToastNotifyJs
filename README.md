@@ -60,8 +60,8 @@ toast.create("Warn", "Este es un Warn personalizado.", "#ff0000", "#ffffff");
 
 toast.create("Success", "Este es un Success personalizado.", "#ff0000", "#ffffff");
 
-// Si quieres contribuir al desarrollo de ToastNotifyJs, no dudes en abrir un issue o enviar un pull request en GitHub.
 ```
+Si quieres contribuir al desarrollo de ToastNotifyJs, no dudes en abrir un issue o enviar un pull request en GitHub.
 
 ## Contribuir
 
