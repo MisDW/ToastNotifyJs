@@ -12,12 +12,12 @@ Para comenzar a usar ToastNotifyJs en tu proyecto, simplemente incluye el siguie
 ``` javascript
 <script src="toastnotify.js"></script>
 ```
-```javascript
+```markdown
 ## Uso
 
 Una vez que hayas incluido el archivo `toastnotify.js`, puedes comenzar a usar ToastNotifyJs en tu código JavaScript de la siguiente manera:
-
-
+```
+```javascript
 // Crear una instancia de ToastNotifyJs
 const toast = new ToastNotifiJs();
 
