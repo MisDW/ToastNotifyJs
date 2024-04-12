@@ -49,9 +49,20 @@ Para utilizar colores personalizados, simplemente incluye el color en hexadecima
 
 Puedes encontrar ejemplos de uso en el archivo `example.html` incluido en este repositorio.
 
-## Contribuir
+// Mostrar una notificación personalizada
 
-Si quieres contribuir al desarrollo de ToastNotifyJs, no dudes en abrir un issue o enviar un pull request en GitHub.
+```javascript
+toast.create("Info", "Este es una info personalizado.", "#ff0000", "#ffffff");
+
+toast.create("Error", "Este es un Error personalizado.", "#ff0000", "#ffffff");
+
+toast.create("Warn", "Este es un Warn personalizado.", "#ff0000", "#ffffff");
+
+toast.create("Success", "Este es un Success personalizado.", "#ff0000", "#ffffff");
+
+// Si quieres contribuir al desarrollo de ToastNotifyJs, no dudes en abrir un issue o enviar un pull request en GitHub.
 ```
+
+## Contribuir
 
 Este texto proporciona una descripción completa de tu biblioteca, incluyendo cómo instalarla, usarla, personalizar las notificaciones y cómo contribuir al proyecto.
