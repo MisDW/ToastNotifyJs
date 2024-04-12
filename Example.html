@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Toast</title>
+    <style>
+        .button{
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 0px;
+            color: #ffff;
+            cursor: pointer;
+            position: relative;
+            width: 150px;
+            z-index: 2;
+        }
+
+        .info{
+            background-color: #3C90D1;
+        }
+
+        .info:hover{
+            background-color: #0c70bd;
+        }
+        
+        .error{
+            background-color: #E14D45;
+        }
+
+        .error:hover{
+            background-color: #bb1c14;
+        }
+
+        .warn{
+            background-color: #ED991D;
+        }
+
+        .warn:hover{
+            background-color: #ab6f15;
+        }
+
+        .success{
+            background-color: #2ECC71;
+        }
+
+        .success:hover{
+            background-color: #0f9949;
+        }
+
+        .buttons{
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="buttons">
+        <input  class="button info" type="button" value="INFO" onclick="info()">
+        <input  class="button error" type="button" value="ERROR" onclick="error()">
+        <input  class="button warn" type="button" value="WARN" onclick="warn()">
+        <input  class="button success" type="button" value="SUCCESS" onclick="success()">    
+    </div>
+
+    <!-- <script src="toastnotify.js"></script> -->
+    <!-- <script src="toastnotify.min.js"></script> -->
+    <script src="https://raw.githubusercontent.com/MisDW/ToastNotifyJs/main/toastnotify.js"></script>
+    <script>
+        let toast = new ToastNotifiJs()
+        // en las posiciones quiero un top, buttom, center, {right, left} 
+        info = () =>{
+            toast.create("Info", "Puede cambiar el usuario", "default", "default")
+        }
+
+        error = () =>{
+            toast.create("Error", "Error de usuario", "default")
+        }
+
+        warn = () =>{
+            toast.create("Warn", "Puede no cambiar el usuario", "default")
+        }
+
+        success = () =>{
+            toast.create("Success", "Completado exitosamente", "default")
+        }
+</script>
+</body>
+</html>
