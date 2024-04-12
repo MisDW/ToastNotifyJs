@@ -57,13 +57,13 @@ Puedes encontrar ejemplos de uso en el archivo `example.html` incluido en este r
 
 ```javascript
 // Mostrar una notificación personalizada
-toast.create("Info", "Este es una info personalizado.", "#ff0000", "#ffffff");
+toast.create("Info", "Este es una info personalizado.", "#fffff", "#3C90D1");
 
-toast.create("Error", "Este es un Error personalizado.", "#ff0000", "#ffffff");
+toast.create("Error", "Este es un Error personalizado.", "#E14D45", "default");
 
-toast.create("Warn", "Este es un Warn personalizado.", "#ff0000", "#ffffff");
+toast.create("Warn", "Este es un Warn personalizado.", "#fffff", "#ED991D");
 
-toast.create("Success", "Este es un Success personalizado.", "#ff0000", "#ffffff");
+toast.create("Success", "Este es un Success personalizado.", "#fffff", "#2ECC71");
 
 ```
 Si quieres contribuir al desarrollo de ToastNotifyJs, no dudes en abrir un issue o enviar un pull request en GitHub.
