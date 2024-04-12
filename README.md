@@ -59,9 +59,9 @@ Puedes encontrar ejemplos de uso en el archivo `example.html` incluido en este r
 // Mostrar una notificación personalizada
 toast.create("Info", "Este es una info personalizado.", "#fffff", "#3C90D1");
 
-toast.create("Error", "Este es un Error personalizado.", "#E14D45", "default");
+toast.create("Error", "Este es un Error personalizado.", "default", "default");
 
-toast.create("Warn", "Este es un Warn personalizado.", "#fffff", "#ED991D");
+toast.create("Warn", "Este es un Warn personalizado.", "default", "#ED991D");
 
 toast.create("Success", "Este es un Success personalizado.", "#fffff", "#2ECC71");
 
