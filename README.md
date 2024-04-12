@@ -1,5 +1,3 @@
-Claro, aquí está el texto completo que puedes usar en el README de tu repositorio en GitHub:
-
 ```markdown
 # ToastNotifyJs
 
