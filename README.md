@@ -1,3 +1,6 @@
+Claro, aquí está el texto completo que puedes usar en el README de tu repositorio en GitHub:
+
+```markdown
 # ToastNotifyJs
 
 ToastNotifyJs es una pequeña biblioteca JavaScript que te permite mostrar notificaciones emergentes personalizadas en tu aplicación web. Estas notificaciones, comúnmente conocidas como "toast notify", son breves y temporales, ideales para informar al usuario sobre eventos importantes de manera discreta.
@@ -37,8 +40,10 @@ Puedes personalizar el aspecto y el comportamiento de las notificaciones cambian
 
 - `type`: El tipo de notificación (`Info`, `Error`, `Warn`, `Success`). Por defecto es `Error`.
 - `message`: El mensaje que se mostrará en la notificación. Por defecto es "Undefined Example toast".
-- `background`: El color de fondo de la notificación. Por defecto es `#ffff`.
-- `color`: El color del texto de la notificación. Por defecto es `#000000`.
+- `background`: El color de fondo de la notificación en formato hexadecimal. Por defecto es `#default`.
+- `color`: El color del texto de la notificación en formato hexadecimal. Por defecto es `#default`.
+
+Para utilizar colores personalizados, simplemente incluye el color en hexadecimal como valor para los parámetros `background` y `color`. Si no se incluye ningún valor, se utilizará `#default`.
 
 ## Ejemplos
 
@@ -47,5 +52,6 @@ Puedes encontrar ejemplos de uso en el archivo `example.html` incluido en este r
 ## Contribuir
 
 Si quieres contribuir al desarrollo de ToastNotifyJs, no dudes en abrir un issue o enviar un pull request en GitHub.
+```
 
----
+Este texto proporciona una descripción completa de tu biblioteca, incluyendo cómo instalarla, usarla, personalizar las notificaciones y cómo contribuir al proyecto.
