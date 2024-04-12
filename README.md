@@ -55,9 +55,8 @@ Para utilizar colores personalizados, simplemente incluye el color en hexadecima
 
 Puedes encontrar ejemplos de uso en el archivo `example.html` incluido en este repositorio.
 
-// Mostrar una notificación personalizada
-
 ```javascript
+// Mostrar una notificación personalizada
 toast.create("Info", "Este es una info personalizado.", "#ff0000", "#ffffff");
 
 toast.create("Error", "Este es un Error personalizado.", "#ff0000", "#ffffff");
