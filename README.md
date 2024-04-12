@@ -3,11 +3,17 @@ Claro, aquí está el texto completo que puedes usar en el README de tu reposito
 ```markdown
 # ToastNotifyJs
 
-ToastNotifyJs es una pequeña biblioteca JavaScript que te permite mostrar notificaciones emergentes personalizadas en tu aplicación web. Estas notificaciones, comúnmente conocidas como "toast notify", son breves y temporales, ideales para informar al usuario sobre eventos importantes de manera discreta.
+ToastNotifyJs es una pequeña biblioteca JavaScript
+que te permite mostrar notificaciones emergentes
+personalizadas en tu aplicación web. Estas notificaciones,
+comúnmente conocidas como "toast notify", son breves y
+temporales, ideales para informar al usuario sobre eventos
+importantes de manera discreta.
 
 ## Instalación
 
-Para comenzar a usar ToastNotifyJs en tu proyecto, simplemente incluye el siguiente código en tu HTML:
+Para comenzar a usar ToastNotifyJs en tu proyecto,
+simplemente incluye el siguiente código en tu HTML:
 
 ``` javascript
 <script src="toastnotify.js"></script>
@@ -15,7 +21,9 @@ Para comenzar a usar ToastNotifyJs en tu proyecto, simplemente incluye el siguie
 ```markdown
 ## Uso
 
-Una vez que hayas incluido el archivo `toastnotify.js`, puedes comenzar a usar ToastNotifyJs en tu código JavaScript de la siguiente manera:
+Una vez que hayas incluido el archivo `toastnotify.js`,
+puedes comenzar a usar ToastNotifyJs en tu código
+JavaScript de la siguiente manera:
 ```
 ```javascript
 // Crear una instancia de ToastNotifyJs
